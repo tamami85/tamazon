@@ -1,0 +1,168 @@
+body {
+    background-color: #FFFFCC;
+    margin: 0 auto;
+    font-family: arial black;
+    font-weight: bold;
+}
+
+header {
+     background-color: #33FFFF;
+     padding: 0px 20px;
+     height: 100px;
+     display: flex;
+     width: 100%;
+     margin-bottom: 10px;
+}
+
+h1 img {
+    height: 80px;
+    margin: 10px;
+}
+
+h1 {
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-size: 70px;
+    background: url(../decoration.img/lion.png) no-repeat 0;
+    padding-left: 30px;
+    flex: 1;
+}
+
+header p {
+    flex: 1;
+    text-align: right;
+    margin: auto 0;
+}
+
+header > div + a {
+    font-size: 30px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFCC;
+}
+
+section {
+    width: 100%;
+    height: 300px;
+}
+
+.comment {
+    position: relative;
+}
+
+.comment p {
+    /*↓場所はいつも同じところに置いとく*/
+    position: absolute;
+    color: #FFFFCC;
+    font-size: 70px;
+    /*↓上から見て真ん中に文字を置く*/
+    top: 50%;
+    /*↓左から見て真ん中に文字を置く*/
+    left: 50%;
+    /*↓縦方向に50％、横方向に50％移動させる*/
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+}
+
+.slider_img {
+    width: 100%;
+    height: 300px;
+}
+
+article > ul, li {
+    color: #CCCCFF;
+    list-style: none;
+    line-height: 48px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.blue {
+    color: #33FFFF;
+}
+
+a {
+    color: #33FFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    /*リンクにカーソルなどが乗った際のスタイルを指定。カーソルが来たときだけアンダーライン発生*/
+    text-decoration: underline;
+}
+
+h2 {
+    color: #CCCCFF;
+    font-size: 50px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin: 10px;
+}
+
+article {
+    padding: 20px;
+}
+
+.img_size {
+    height: 100px;
+    width: 100px;
+}
+
+.container {
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.flex_container {
+    display: flex;
+    /*↓フレックスしたやつは端まで行くと折り返されて、また右から並ぶ*/
+    flex-wrap: wrap;
+    /*↓まんなかにならぶ*/
+    justify-content: center;
+}
+
+article + p {
+    margin-left: 20px;
+    color: #33FFFF;
+    font-size: 30px;
+}
+
+.glay {
+    color: #CCCCFF;
+}
+
+article + div, div {
+    text-align: center;
+}
+
+footer {
+    background-color: #33FFFF;
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+footer > p {
+    font-size: small;
+    text-align: center;
+    margin: 0 auto;
+}

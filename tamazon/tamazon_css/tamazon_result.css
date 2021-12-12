@@ -1,0 +1,120 @@
+body {
+    background-color: #FFFFCC;
+    margin: 0 auto;
+    font-family: arial black;
+    font-weight: bold;
+}
+
+header {
+     background-color: #33FFFF;
+     margin: 0px 0px 50px 0px;
+     padding-right: 10px;
+     height: 100px;
+     display: flex;
+     width: 100%;
+}
+
+h1 img {
+    height: 80px;
+    margin: 10px;
+}
+
+h1 {
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-size: 70px;
+    background: url(../decoration.img/lion.png) no-repeat 0;
+    padding-left: 30px;
+    flex: 1;
+}
+
+header p {
+    flex: 1;
+    text-align: right;
+    margin: auto 0;
+}
+
+header > div + a {
+    font-size: 30px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFCC;
+}
+
+form {
+    text-align: center;
+}
+
+
+ul, li {
+    color: #CCCCFF;
+    list-style: none;
+    line-height: 48px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.blue {
+    color: #33FFFF;
+}
+
+body p {
+    text-align: center;
+}
+
+a {
+    color: #33FFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.img_size {
+    height: 100px;
+    width: 100px;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: #33FFFF;
+}
+
+.gray {
+    color: #CCCCFF;
+}
+
+.background_white {
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #33FFFF;
+    height: 100px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+footer > p {
+    font-size: small;
+    text-align: center;
+    margin: 0 auto;
+}

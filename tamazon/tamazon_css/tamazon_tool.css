@@ -1,0 +1,40 @@
+section {
+    margin-bottom: 20px;
+    border-top: solid 1px;
+}
+
+table {
+    width: 900px;
+    border-collapse: collapse;
+}
+
+table, tr, th, td {
+    border: solid 1px;
+    padding: 10px;
+    text-align: center;
+}
+
+caption {
+    text-align: left;
+}
+
+.text_align_right {
+    text-align: right;
+}
+
+.img_size {
+    width: 150px;
+    height: 100px;
+}
+
+.item_name_width {
+    width: 100px;
+}
+
+.input_text_width {
+    width: 60px;
+}
+
+.status_false {
+    background-color: #A9A9A9;
+}
